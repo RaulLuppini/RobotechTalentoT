@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+body {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    background-color: rgba(0, 0, 0, 0.877);
+}
+
+body {
+
+    font-size: 600;
+    color: rgb(224, 224, 233);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar {
+
+
+    padding: 0;
+    margin: 0;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid hsl(0, 0%);
+
+}
+
+
+.navbar ul li a {
+    list-style-type: none;
+    background: #1b293a;
+    position: relative;
+    float: right;
+    display: block;
+    text-decoration: none;
+    color: #fffdfc;
+    padding: 1em 1em;
+
+}
+
+.navbar ul li a:hover {
+    background: hsl(0, 0%, 25%);
+}
+
+.navbar ul li a {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.navbar ul li {
+    flex: 1 0 auto;
+    text-align: center;
+}
+h1{
+    color: #a6b1bd;
+    font-size: 80px;
+}
+
+h2 {
+    color: white;
+}
+h3{
+    color: #f1f1f1;
+}
+
+p {
+    color: white;
+}
+
+.img-fondo1 {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-fondo2 {
+    max-width: 100%;
+    height: auto;
+}
+
+.centrado {
+    margin: 0 auto;
+    padding: 0 .8em;
+}
+
+.tarjeta a {
+    color: #1b293a;
+    text-decoration: none;
+}
+
+.tarjeta a:hover {
+    box-shadow: 3px 3px 8px #817272;
+}
+
+.tarjeta-content {
+    padding: 1.4em;
+}
+
+
+figure {
+    margin: 10px;
+}
+
+img {
+    display: block;
+    border: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tarjeta {
+    background: hsl(204, 63%, 16%);
+    margin-bottom: 2em;
+    margin-top: 10em;
+    /* Ajusta este valor según sea necesario */
+    width: 30%;
+}
+
+.personaje {
+    max-width: 100%;
+}
+
+.tarjeta-content h2 {
+    color: #1477e9;
+    margin-top: 0;
+    margin-bottom: .5em;
+    font-weight: normal;
+
+}
+
+.tarjeta-content p {
+    font-size: 95%;
+    color: #325892;
+}
+
+.muestra {
+    max-width: 100%;
+}
+
+footer {
+    padding: 1em;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 1em;
+    color: #000;
+}
+
+/* Contenedor principal */
+div {
+    width: 100%;
+    /* Ajusta el ancho del contenedor */
+    margin: 0% auto 0 auto;
+    /* Centra el contenedor horizontalmente y agrega margen superior */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Estilo general del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    /* Asegura que los elementos del formulario se coloquen en una columna */
+}
+
+/* Estilo del fieldset */
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 0;
+}
+legend {
+    margin: auto;
+    margin-bottom: 0.1em;
+}
+
+/* Estilo de las etiquetas e inputs alineados en horizontal */
+.form-group {
+    display: flex;
+    align-items: center;
+    /* Alinea verticalmente los elementos */
+    margin-bottom: 1em;
+    justify-content: flex-end;
+}
+
+/* Estilo de las etiquetas */
+label {
+    flex: 1;
+    /* Permite que la etiqueta ocupe el espacio disponible */
+    color: #333;
+    /* Color de las fuentes */
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin-right: 1em;
+}
+
+/* Estilo de los inputs */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"] {
+    flex: 2;
+    /* Permite que el input ocupe el espacio restante */
+    padding: 0.5em;
+    margin-left: 1em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+/* Estilo del botón */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
